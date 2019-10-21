@@ -1,3 +1,7 @@
+// export LC_CTYPE=C
+// LC_CTYPE=C cat /dev/urandom | tr -dc 'a-z' | fold -w 4 | head -n 1000000
+// > nom.txt
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
